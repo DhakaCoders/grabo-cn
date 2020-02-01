@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MuliLightItalic';
+    src: url('fonts/MuliLightItalic.eot');
+    src: url('fonts/MuliLightItalic.eot') format('embedded-opentype'),
+         url('fonts/MuliLightItalic.woff2') format('woff2'),
+         url('fonts/MuliLightItalic.woff') format('woff'),
+         url('fonts/MuliLightItalic.ttf') format('truetype'),
+         url('fonts/MuliLightItalic.svg#MuliLightItalic') format('svg');
+}

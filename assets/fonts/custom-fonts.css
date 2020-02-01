@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('OpenSansRegular/OpenSansRegular.eot');
+    src: url('OpenSansRegular/OpenSansRegular.eot') format('embedded-opentype'),
+         url('OpenSansRegular/OpenSansRegular.woff2') format('woff2'),
+         url('OpenSansRegular/OpenSansRegular.woff') format('woff'),
+         url('OpenSansRegular/OpenSansRegular.ttf') format('truetype'),
+         url('OpenSansRegular/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('OpenSansLight/OpenSansLight.eot');
+    src: url('OpenSansLight/OpenSansLight.eot') format('embedded-opentype'),
+         url('OpenSansLight/OpenSansLight.woff2') format('woff2'),
+         url('OpenSansLight/OpenSansLight.woff') format('woff'),
+         url('OpenSansLight/OpenSansLight.ttf') format('truetype'),
+         url('OpenSansLight/OpenSansLight.svg#OpenSansLight') format('svg');
+}
+
+
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('RobotoRegular/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+  url('RobotoRegular/Roboto-Regular.woff') format('woff'),
+  url('RobotoRegular/Roboto-Regular.ttf')  format('truetype'),
+  url('RobotoRegular/Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'OswaldMedium';
+    src: url('OswaldMedium/OswaldMedium.eot');
+    src: url('OswaldMedium/OswaldMedium.eot') format('embedded-opentype'),
+         url('OswaldMedium/OswaldMedium.woff2') format('woff2'),
+         url('OswaldMedium/OswaldMedium.woff') format('woff'),
+         url('OswaldMedium/OswaldMedium.ttf') format('truetype'),
+         url('OswaldMedium/OswaldMedium.svg#OswaldMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'OswaldBold';
+    src: url('OswaldBold/OswaldBold.eot');
+    src: url('OswaldBold/OswaldBold.eot') format('embedded-opentype'),
+         url('OswaldBold/OswaldBold.woff2') format('woff2'),
+         url('OswaldBold/OswaldBold.woff') format('woff'),
+         url('OswaldBold/OswaldBold.ttf') format('truetype'),
+         url('OswaldBold/OswaldBold.svg#OswaldBold') format('svg');
+}
+
+
+@font-face {
+    font-family: 'MuliLightItalic';
+    src: url('MuliLightItalic/MuliLightItalic.eot');
+    src: url('MuliLightItalic/MuliLightItalic.eot') format('embedded-opentype'),
+         url('MuliLightItalic/MuliLightItalic.woff2') format('woff2'),
+         url('MuliLightItalic/MuliLightItalic.woff') format('woff'),
+         url('MuliLightItalic/MuliLightItalic.ttf') format('truetype'),
+         url('MuliLightItalic/MuliLightItalic.svg#MuliLightItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('RobotoLight/RobotoLight.eot');
+    src: url('RobotoLight/RobotoLight.eot') format('embedded-opentype'),
+         url('RobotoLight/RobotoLight.woff2') format('woff2'),
+         url('RobotoLight/RobotoLight.woff') format('woff'),
+         url('RobotoLight/RobotoLight.ttf') format('truetype'),
+         url('RobotoLight/RobotoLight.svg#RobotoLight') format('svg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

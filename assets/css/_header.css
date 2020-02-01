@@ -1,0 +1,295 @@
+.header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 15;
+    padding: 34px 0 14px;
+}  
+.hdr-left {
+    width: 30%;
+    float: left;
+    padding-right: 15px;
+}
+.hdr-left .hdr-logo a{
+    display: inline-block;
+    vertical-align: baseline;
+} 
+.hdr-left .hdr-logo i{
+    max-width: 338px;
+    display: inline-block;
+	vertical-align: baseline;
+}
+.hdr-left .hdr-logo img{
+    width: 100%;
+}
+.hdr-right{
+    width: 70%;
+    float: left;
+    padding-top: 27px;
+}
+.header-rgt-menu{
+    float: right;
+}
+.hdr-right ul{
+    display: inline-block;
+	vertical-align: baseline;
+    vertical-align: top;
+    margin-right: -24px;
+}
+.hdr-right ul > li{
+    display: inline-block;
+    vertical-align: baseline;
+    position: relative;
+    float: left;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 20px;
+    line-height: 22px;
+} 
+nav.hdr-nav > ul > li > a{
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 12px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: 'OswaldMedium';
+}
+nav.hdr-nav > ul > li > a{
+    display: inline-block;
+    vertical-align: baseline;
+}
+nav.hdr-nav > ul > li.menu-item-has-children > ul.sub-menu{
+    position: absolute;
+    min-width: 215px;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    padding-top: 4px;
+    z-index: 20;
+    -ms-transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+    transform-origin: top;
+    -ms-transform-origin: top;
+    -webkit-transform-origin: top;
+    display: none;
+}
+nav.hdr-nav > ul > li.menu-item-has-children:hover > ul.sub-menu{
+    display: block;
+    padding-left: 30px;
+}
+nav.hdr-nav  ul.sub-menu > li{
+    display: block;
+    padding: 0;
+    padding-bottom: 3px;
+}
+nav.hdr-nav  ul.sub-menu > li > a{
+    display: block;
+    color: #fff;
+    padding: 5px 7px;
+    text-transform: uppercase;
+    font-family: 'OswaldMedium';
+}
+.nav-opener{
+    display: none;
+}
+nav.hdr-nav > ul > li > a:hover,
+nav.hdr-nav > ul > li.current-menu-item > a,
+nav.hdr-nav > ul > li.menu-item-has-children:hover > a,
+nav.hdr-nav > ul > li.menu-item-has-children:hover > ul  a/* , 
+nav.hdr-nav > ul > li.menu-item-has-children > ul a:hover*/{
+    background: #cd322c;
+}
+nav.hdr-nav > ul > li.menu-item-has-children > ul a:hover {
+    background: #c40d06;
+}
+nav.hdr-nav > ul > li.menu-item-has-children{
+    position: relative;
+    padding-right: 50px;
+}
+nav.hdr-nav > ul > li.menu-item-has-children::after {
+    content: "\f107";
+    position: absolute;
+    font-family: FontAwesome;
+    right: 30px;
+    top: 50%;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #fff;
+    font-size: 18px;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.sm-popup-main-menu-wrap{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 1199px){
+    .hdr-right {
+        padding-top: 10px;
+    }
+    .hdr-right ul > li {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+}
+
+
+@media(max-width: 991px){
+    .hdr-left {
+        width: 100%;
+    }
+    .sm-popup-main-menu-wrap{
+        color: #fff;
+        padding: 30px 42px 30px 10px;
+        display: none;
+        overflow-y: scroll;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 76px;
+        background: #da291c;
+        opacity: .9
+    }
+    .home-bnr-sm-nav-bar-controller {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 5;
+        width: 77px;
+        height: 63px;
+        background: #da291c;
+        cursor: pointer;
+        text-align: center;
+    }
+    .sm-menu-humberger-btn span{
+        display: inline-block;
+        vertical-align: baseline;
+        max-width: 31px;
+        line-height: 60px;
+    }
+    .sm-menu-humberger-btn span img{
+        width: 100%;
+    }
+    .sm-popup-main-nav ul {
+        padding-top: 5px;
+    }
+    .sm-popup-main-nav ul a {
+        color: #fff;
+        position: relative;
+        font-size: 36.6px;
+        line-height: 36px;
+        font-weight: 700;
+    }
+    .sm-popup-main-nav > ul > li{
+        padding-bottom: 10px;
+    }
+     .sm-popup-main-nav > ul > li.menu-item-has-children{
+        padding-bottom: 40px;
+    }
+    .sm-popup-main-nav ul.sub-menu li a{
+        font-size: 29px;
+        line-height: 29px;
+        display: inline-block;
+        vertical-align: baseline;
+    }
+
+    .sm-popup-main-nav ul.sub-menu li{
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .sm-popup-main-nav ul.sub-menu li:last-child{
+        padding-bottom: 0;
+    }
+    .sm-phn-con,
+    .sm-mail-con {
+        position: absolute;
+        right: 0;
+        top: 70px;
+        z-index: 5;
+        width: 77px;
+        height: 63px;
+        background: #da291c;
+        cursor: pointer;
+        text-align: center;
+    }
+    .sm-phn-con span{
+        display: inline-block;
+        vertical-align: baseline;
+        width: 28px;
+        line-height: 60px;
+    }
+    .sm-phn-con span img,
+    .sm-mail-con span img{
+        width: 100%;
+    }
+    .sm-mail-con span{
+        display: inline-block;
+        vertical-align: baseline;
+        width: 44px;
+        line-height: 60px;
+    }
+    .sm-mail-con {
+        top: 140px;
+    }
+    .sm-phn-innr,
+    .sm-mail-innr{
+        position: relative;
+        height: 100%;
+        z-index: 2
+    }
+
+}
+
+
+@media(max-width: 767px){
+
+
+}
+
+@media(max-width: 639px){
+    .hdr-left .hdr-logo i {
+        max-width: 280px;
+    }
+}
+
+@media(max-width: 575px){
+
+
+}
+
+@media(max-width: 479px){
+    .hdr-left .hdr-logo i {
+        max-width: 230px;
+    }
+    .sm-popup-main-nav ul a {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .sm-popup-main-nav ul.sub-menu li a {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .sm-popup-main-menu-wrap {
+        padding: 30px 25px 30px 10px;
+    }
+}
+
+@media(max-width: 359px){
+    .hdr-left .hdr-logo i {
+        max-width: 190px;
+    }
+}
