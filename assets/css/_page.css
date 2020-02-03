@@ -40,12 +40,12 @@
 .hdr-banner-des {
     position: absolute;
     right: 260px;
-    bottom: -80px;
+    bottom: -75px;
     max-width: 505px;
     padding: 23px 150px 18px 30px;
     text-align: left;
     background: #da1a1f;
-    z-index: 5;
+    z-index: 1;
 }
 .hdr-banner-des span {
     font-family: 'OswaldBold';

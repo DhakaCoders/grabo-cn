@@ -27,8 +27,8 @@ p a:hover{
     transform: skewY(-2deg);
     -webkit-transform: skewY(-2deg);
     -ms-transform: skewY(-2deg);
-    border-top: 60px solid #da1a1f;
-    margin-top: -34px;
+    border-top: 65px solid #da1a1f;
+    margin-top: -33px;
     position: relative;
     z-index: 1;
 }
@@ -45,8 +45,9 @@ p a:hover{
     position: relative;
     overflow: hidden;
 }
-.mrg-tp{
-	margin-top: -90px;
+.mrg-tp {
+    margin-top: -50px;
+    padding-top: 0;
 }
 
 .hdr-banner-lft-btn{
@@ -70,6 +71,10 @@ p a:hover{
 	font-size: 20px;
 	line-height: 22px;
 	padding-top: 10px;
+}
+
+.prd-btm{
+	padding-bottom: 185px;
 }
 
 
