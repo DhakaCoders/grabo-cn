@@ -150,26 +150,52 @@ nav.hdr-nav > ul > li.menu-item-has-children:hover::after {
 
 
 
-
+@media(max-width: 1299px){
+    .hdr-right ul{
+       margin-right: -15px; 
+    }
+}
 
 @media(max-width: 1199px){
     .hdr-right {
         padding-top: 10px;
     }
     .hdr-right ul > li {
-        padding-left: 13px;
-        padding-right: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
 
 @media(max-width: 991px){
+    .hdr-right ul > li {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    nav.hdr-nav > ul > li > a {
+        padding: 4px 8px;
+        font-size: 16px;
+    }
+    nav.hdr-nav > ul > li.menu-item-has-children {
+        padding-right: 30px;
+    }
+    nav.hdr-nav > ul > li.menu-item-has-children::after{
+        right: 15px;
+    }
+
+}
+
+
+@media(max-width: 767px){
+    .header {
+        padding: 20px 0 0;
+    }
     .hdr-left {
         width: 100%;
     }
-    .sm-popup-main-menu-wrap{
+    .xs-popup-main-menu-wrap {
         color: #fff;
-        padding: 30px 42px 30px 10px;
+        padding: 28px 36px 30px 20px;
         display: none;
         overflow-y: scroll;
         position: fixed;
@@ -177,11 +203,22 @@ nav.hdr-nav > ul > li.menu-item-has-children:hover::after {
         top: 0;
         left: 0;
         bottom: 0;
-        right: 76px;
-        background: #da291c;
-        opacity: .9
+        right: 0;
+        background: #000;
+        opacity: .9;
     }
-    .home-bnr-sm-nav-bar-controller {
+    .xs-popup-main-menu-wrap span{
+        display: inline-block;
+        vertical-align: baseline;
+        position: absolute;
+        left: 18px;
+        top: 17px;
+    }
+
+    .xs-popup-main-menu-wrap {
+        display: none;
+    }
+    .home-bnr-xs-nav-bar-controller {
         position: absolute;
         right: 0;
         top: 0;
@@ -192,47 +229,49 @@ nav.hdr-nav > ul > li.menu-item-has-children:hover::after {
         cursor: pointer;
         text-align: center;
     }
-    .sm-menu-humberger-btn span{
+    .xs-menu-humberger-btn span{
         display: inline-block;
         vertical-align: baseline;
         max-width: 31px;
         line-height: 60px;
     }
-    .sm-menu-humberger-btn span img{
+    .xs-menu-humberger-btn span img{
         width: 100%;
     }
-    .sm-popup-main-nav ul {
+    .xs-popup-main-nav ul {
         padding-top: 5px;
     }
-    .sm-popup-main-nav ul a {
+    .xs-popup-main-nav ul li a {
         color: #fff;
         position: relative;
         font-size: 36.6px;
         line-height: 36px;
-        font-weight: 700;
+        text-transform: uppercase;
+        font-family: 'OswaldBold';
     }
-    .sm-popup-main-nav > ul > li{
+    .xs-popup-main-nav > ul > li{
         padding-bottom: 10px;
     }
-     .sm-popup-main-nav > ul > li.menu-item-has-children{
-        padding-bottom: 40px;
+     .xs-popup-main-nav > ul > li.menu-item-has-children{
+        padding-bottom: 42px;
     }
-    .sm-popup-main-nav ul.sub-menu li a{
+    .xs-popup-main-nav ul.sub-menu li a{
         font-size: 29px;
         line-height: 29px;
         display: inline-block;
         vertical-align: baseline;
+        font-family: 'OswaldBold';
     }
 
-    .sm-popup-main-nav ul.sub-menu li{
+    .xs-popup-main-nav ul.sub-menu li{
         padding-top: 3px;
         padding-bottom: 3px;
     }
-    .sm-popup-main-nav ul.sub-menu li:last-child{
+    .xs-popup-main-nav ul.sub-menu li:last-child{
         padding-bottom: 0;
     }
-    .sm-phn-con,
-    .sm-mail-con {
+    .xs-map-con,
+    .xs-mail-con {
         position: absolute;
         right: 0;
         top: 70px;
@@ -243,27 +282,27 @@ nav.hdr-nav > ul > li.menu-item-has-children:hover::after {
         cursor: pointer;
         text-align: center;
     }
-    .sm-phn-con span{
+    .xs-map-con span{
         display: inline-block;
         vertical-align: baseline;
         width: 28px;
         line-height: 60px;
     }
-    .sm-phn-con span img,
-    .sm-mail-con span img{
+    .xs-map-con span img,
+    .xs-mail-con span img{
         width: 100%;
     }
-    .sm-mail-con span{
+    .xs-mail-con span{
         display: inline-block;
         vertical-align: baseline;
         width: 44px;
         line-height: 60px;
     }
-    .sm-mail-con {
+    .xs-mail-con {
         top: 140px;
     }
-    .sm-phn-innr,
-    .sm-mail-innr{
+    .xs-map-innr,
+    .xs-mail-innr{
         position: relative;
         height: 100%;
         z-index: 2
@@ -271,42 +310,49 @@ nav.hdr-nav > ul > li.menu-item-has-children:hover::after {
 
 }
 
-
-@media(max-width: 767px){
-
-
+@media(max-width: 639px){
+    
 }
 
-@media(max-width: 639px){
+@media(max-width: 575px){
     .hdr-left .hdr-logo i {
         max-width: 280px;
     }
 }
 
-@media(max-width: 575px){
-
-
-}
-
 @media(max-width: 479px){
-    .hdr-left .hdr-logo i {
-        max-width: 230px;
+   .hdr-left .hdr-logo i {
+        max-width: 200px;
+    } 
+    .home-bnr-xs-nav-bar-controller {
+        width: 70px;
+        height: 63px;
     }
-    .sm-popup-main-nav ul a {
-        font-size: 30px;
-        line-height: 30px;
+    .xs-map-con,
+    .xs-mail-con{
+        width: 70px;
+        height: 63px;
     }
-    .sm-popup-main-nav ul.sub-menu li a {
-        font-size: 24px;
-        line-height: 24px;
+    .xs-popup-main-nav ul li a {
+        font-size: 32px;
+        line-height: 32px;
     }
-    .sm-popup-main-menu-wrap {
-        padding: 30px 25px 30px 10px;
+    .xs-popup-main-nav ul.sub-menu li a{
+        font-size: 27px;
+        line-height: 27px;
+    }
+    .xs-popup-main-menu-wrap {
+        padding: 28px 20px 30px 15px;
     }
 }
 
 @media(max-width: 359px){
-    .hdr-left .hdr-logo i {
-        max-width: 190px;
+    .xs-popup-main-nav ul li a {
+        font-size: 29px;
+        line-height: 29px;
+    }
+    .xs-popup-main-nav ul.sub-menu li a{
+        font-size: 26px;
+        line-height: 26px;
     }
 }
