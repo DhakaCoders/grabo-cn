@@ -12,7 +12,7 @@ ftr-top-wrp
 .to-top-btn{
     position: fixed;
     right: 0;
-    bottom: 25%;
+    bottom: 26%;
     width: 110px;
     height: 65px;
     background: #da291c;
@@ -71,7 +71,7 @@ ftr-top-wrp
 	font-size: 20px;
 	line-height: 30px;
 	color: #3c3c3b;
-	font-family: 'RobotoRegular';
+	font-family: 'OpenSansRegular';
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -150,12 +150,17 @@ ftr-top-wrp
 	    float: left;
 	    padding-left: 0;
 	    padding-top: 40px;
+	    max-width: 376px;
+	    width: 100%;
+	}
+	.ftr-topspin img{
+		width: 100%;
 	}
 	.ftr-info span:first-child a {
 	    padding-bottom: 40px;
 	}
 	.ftr-top-wrp {
-	    padding-top: 40px;
+	    padding-top: 35px;
 	    padding-bottom: 36px;
 	}
 	.to-top-btn {
@@ -178,8 +183,22 @@ ftr-top-wrp
 		padding-top: 30px
 	}
 	.ftr-btm-dsc p {
-	    font-size: 16px;
-	    line-height: 18px;
+	    font-size: 18px;
+	    line-height: 20px;
+	}
+	.ftr-info span a {
+	    font-size: 25px;
+	    line-height: 40px;
+	}
+	.ftr-logo a {
+	    max-width: 387px;
+	    width: 100%;
+	}
+	.ftr-logo a img{
+		width: 100%;
+	}
+	.ftr-info {
+	    padding-top: 55px;
 	}
 
 }
@@ -199,8 +218,10 @@ ftr-top-wrp
 
 
 @media(max-width: 479px){
-
-
+	.ftr-info span a {
+	    font-size: 21px;
+	    line-height: 32px;
+	}
 }
 
 

@@ -81,10 +81,10 @@ p a:hover{
 
 @media(max-width: 1499px){
 	.hdr-banner-rgt-img {
-	    right: 40px;
+	    right: -15px;
 	    bottom: -155px;
 	    z-index: 5;
-	    max-width: 400px;
+	    max-width: 450px;
 	    width: 100%;
 	}
 }
@@ -125,10 +125,10 @@ p a:hover{
 	    font-size: 24px;
 	}
 	.hdr-banner-des {
-	    right: 165px;
+	    right: 75px;
 	    bottom: 125px;
 	    max-width: 450px;
-	    padding: 23px 119px 18px 30px;
+	    padding: 23px 145px 18px 30px;
 	}
 	.hdr-banner-rgt-img {
 	    right: 0;
@@ -144,12 +144,16 @@ p a:hover{
 }
 
 @media(max-width: 767px){
-	.hdr-banner-des {
-	    right: auto;
-	    bottom: 125px;
+	.hdr-banner-innr {
 	    max-width: 450px;
-	    padding: 23px 119px 18px 30px;
-	    left: 0;
+	    width: 100%;
+	    float: right;
+	}
+	.hdr-banner-des {
+	    right: 75px;
+	    bottom: 140px;
+	    max-width: 450px;
+	    padding: 15px 85px 16px 15px;
 	}
 	.hdr-banner-rgt-img {
 	    right: -60px;
@@ -157,8 +161,8 @@ p a:hover{
 	    max-width: 370px;
 	    width: 100%;
 	}
-	.hdr-banner-lft-btn {
-	    left: 0;
+	.hdr-banner-lft-btn{
+		left: 0;
 	}
 }
 
@@ -173,12 +177,10 @@ p a:hover{
 	    max-width: 315px;
 	    width: 100%;
 	}
-	.hdr-banner-des {
-	    right: auto;
-	    bottom: 95px;
-	    max-width: 450px;
-	    padding: 23px 135px 18px 30px;
-	    left: 0;
+	.hdr-banner-des{
+		bottom: 115px;
+		right: 10px;
+		padding-right: 140px;
 	}
 }
 
@@ -190,9 +192,10 @@ p a:hover{
 	    width: 100%;
 	}
 	.hdr-banner-des {
-	    bottom: 95px;
-	    max-width: 370px;
-	    padding: 23px 80px 18px 20px;
+	    bottom: 70px;
+	    max-width: 400px;
+	    padding: 23px 115px 18px 20px;
+	    right: auto;
 	}
 	.hdr-banner-des span {
 	    font-size: 22px;
@@ -202,5 +205,11 @@ p a:hover{
 @media(max-width: 359px){
 	.hdr-banner-des span {
 	    font-size: 20px;
+	}
+	.hdr-banner-des {
+	    bottom: 80px;
+	    max-width: 400px;
+	    padding: 23px 85px 18px 20px;
+	    right: auto;
 	}
 }
