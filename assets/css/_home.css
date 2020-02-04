@@ -2,12 +2,6 @@
 .een-pakkende-sec{
 	padding: 40px 0 55px;
 }
-.verdere-innr,
-.uitgelichte-innr,
-.een-pakkende-innr{
-	padding-left: 12px;
-	padding-right: 85px;
-}
 .een-pakkende-sec .een-pakkende-top-block{
 	padding-bottom: 52px;
 }
@@ -47,7 +41,7 @@ p a:hover{
 }
 .mrg-tp {
     margin-top: -50px;
-    padding-top: 0;
+    padding-top: 25px;
 }
 
 .hdr-banner-lft-btn{
@@ -96,21 +90,10 @@ p a:hover{
 }
 
 @media(max-width: 1299px){
-	.verdere-innr, 
-	.uitgelichte-innr, 
-	.een-pakkende-innr {
-	    padding-left: 12px;
-	    padding-right: 40px;
-	}
+	
 }
 
 @media(max-width: 1199px){
-	.verdere-innr, 
-	.uitgelichte-innr, 
-	.een-pakkende-innr {
-	    padding-left: 0;
-	    padding-right: 0;
-	}
 	.uitgelichte-btm-block span{
 		margin-top: 20px;
 	}
@@ -129,6 +112,12 @@ p a:hover{
 	.hdr-banner-des span{
 		font-size: 32px;
 	}
+	.uitgelichte-top-block p br,
+	.een-pakkende-top-block p br,
+	.een-pakkende-btm-block p br{
+		display: none;
+	}
+
 }
 
 @media(max-width: 991px){
@@ -187,8 +176,8 @@ p a:hover{
 	.hdr-banner-des {
 	    right: auto;
 	    bottom: 95px;
-	    max-width: 370px;
-	    padding: 23px 60px 18px 30px;
+	    max-width: 450px;
+	    padding: 23px 135px 18px 30px;
 	    left: 0;
 	}
 }
@@ -197,13 +186,13 @@ p a:hover{
 	.hdr-banner-rgt-img {
 	    right: -45px;
 	    bottom: -70px;
-	    max-width: 240px;
+	    max-width: 250px;
 	    width: 100%;
 	}
 	.hdr-banner-des {
 	    bottom: 95px;
 	    max-width: 370px;
-	    padding: 23px 60px 18px 20px;
+	    padding: 23px 80px 18px 20px;
 	}
 	.hdr-banner-des span {
 	    font-size: 22px;
@@ -211,7 +200,7 @@ p a:hover{
 }
 
 @media(max-width: 359px){
-	.hdr-banner-des {
-	    padding: 23px 70px 18px 20px;
+	.hdr-banner-des span {
+	    font-size: 20px;
 	}
 }
