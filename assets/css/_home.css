@@ -82,7 +82,7 @@ p a:hover{
 @media(max-width: 1499px){
 	.hdr-banner-rgt-img {
 	    right: 40px;
-	    bottom: -160px;
+	    bottom: -155px;
 	    z-index: 5;
 	    max-width: 400px;
 	    width: 100%;
