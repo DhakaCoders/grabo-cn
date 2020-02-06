@@ -17,11 +17,13 @@ ftr-top-wrp
     height: 65px;
     background: #da291c;
     cursor: pointer;
-    z-index: 5;
-    display: none;
+    z-index: -99;
+    opacity: 0;
+    transition: all 0.4s;
 }
 .totopshow.to-top-btn{
-	display: block;
+	opacity: 1;
+	z-index: 5;
 }
 .to-top-btn:after{
 	content: "";
@@ -38,11 +40,11 @@ ftr-top-wrp
 	-webkit-transform: translateY(-50%);
 }
 .ftr-info-lft{
-	padding-left: 12px;
+	padding-left: 0;
 }
 .ftr-btm-dsc{
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-left: 0;
+	padding-right: 0;
 }
 .ftr-topspin{
 	float: left;

@@ -40,7 +40,7 @@
 .hdr-banner-des {
     position: absolute;
     right: 260px;
-    bottom: -75px;
+    bottom: -76px;
     max-width: 505px;
     padding: 23px 150px 18px 30px;
     text-align: left;
@@ -59,7 +59,7 @@
 .hdr-banner-rgt-img {
     position: absolute;
     right: -120px;
-    bottom: -160px;
+    bottom: -163px;
     z-index: 5;
 }
 .hdr-banner-bc{

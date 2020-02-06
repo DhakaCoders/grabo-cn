@@ -71,13 +71,40 @@ p a:hover{
 	padding-bottom: 185px;
 }
 
+.hdr-banner-wrap {
+    transform: skewY(-2deg);
+    height: 95.5vh;
+    overflow: hidden;
+    margin-top: -50px;
+}
+
+.hdr-banner-wrap .hdr-banner-img {
+    min-height: 0;
+    transform: skewY(2deg);
+    margin-top: 0;
+    position: absolute;
+    top: -50px;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+}
+.home .hdr-banner-bc{
+	top: 152px;
+}
 
 
-
-
-
-
-
+@media(min-width: 2500px){
+	.hdr-banner-wrap .hdr-banner-img{
+		top: -90px;
+		bottom: -90px;
+	}
+	.hdr-banner-wrap{
+		margin-top: -90px;
+	}
+	.home .hdr-banner-bc{
+		top: 192px;
+	}
+}
 
 @media(max-width: 1499px){
 	.hdr-banner-rgt-img {

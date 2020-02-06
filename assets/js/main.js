@@ -3,7 +3,11 @@
 	
 //xs-popup-main-menu
 var windowWidth = $(window).width();
-
+var windowHeight = $(window).height();
+$('.hdr-banner-wrap').height(windowHeight - 34);
+if( windowHeight < 550 ){
+  $('.hdr-banner-wrap').height(825);
+}
 if (windowWidth <= 991) {
   $('.xs-menu-humberger-btn').on('click', function(){
     $('.xs-popup-main-menu-wrap').fadeIn(500);
@@ -58,7 +62,7 @@ Back to top
 
 $('.hdr-banner-lft-btn').click(function(e) {
   e.preventDefault();
-  $('html, body').animate({scrollTop: 1500},1000);
+  goToByScroll('.een-pakkende-sec', 0);
  });
 
 
@@ -246,6 +250,17 @@ $('.footer-wrap .go-top-btn').on('click', function(e){
   e.preventDefault();
   $('html, body').animate( {scrollTop:0}, '500' );
 });
+
+function goToByScroll(id, offset){
+  if(id){
+      // Remove "link" from the ID
+    id = id.replace("link", "");
+      // Scroll
+    $('html,body').animate(
+        {scrollTop: $(id).offset().top - offset},
+      500);
+  }
+}
 
 })(jQuery);
 

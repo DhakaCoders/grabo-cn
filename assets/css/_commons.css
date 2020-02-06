@@ -16,7 +16,9 @@ a, a:hover, a:focus, button:hover, button:focus{
 	text-decoration: none;
 	outline: 0;
 } 
-
+ul,ol{
+	list-style: none;
+}
 body {
     background: #fff;
     color: #373731;
