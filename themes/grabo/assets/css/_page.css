@@ -76,6 +76,7 @@
 .hdr-banner-bc ul li{
 	font-size: 13px;
 	line-height: 15px;
+	display: inline-block;
 }
 .hdr-banner-bc ul li a{
 	display: inline-block;
@@ -88,6 +89,11 @@
 	-webkit-transition:all 0.5s;
 	-ms-transition:all 0.5s;
 }
+
+.hdr-banner-bc ul li a span {
+    position: relative;
+}
+.hdr-banner-bc ul li a span:before {content: ">";position: absolute;top: 2px;right: -10px;}
 .hdr-banner-bc ul li a:hover{
 	color: #cd322c;
 }
